@@ -11,8 +11,12 @@ Welcome to the MA Chang Industries PowerShell Scripts repository! This repositor
    - **Description**: This script generates a report of all users, capturing their name, department, phone number, email address, and last login time. The data is exported to a CSV file for easy access and analysis.
 
 3. **Remote Maintenance Script**: 
-   - **File**: `mtc.ps11`
+   - **File**: `mtc.ps1`
    - **Description**: This script performs maintenance tasks on multiple Windows Servers, including checking the status of the W32Time service, installing updates if the service is running, and scheduling reboots as needed. It also sets up a scheduled task to run weekly.
+  
+4. **CSV-file with DHCP-leases**: 
+   - **File**: `dhcpsave.ps1`
+   - **Description**: This script outputs a csv file with retrived dhcp-leases and write the selected properties in the code(you can add more if you'd like) 
 
 ## Prerequisites
 
